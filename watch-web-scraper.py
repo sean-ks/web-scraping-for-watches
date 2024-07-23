@@ -53,17 +53,6 @@ def get_soup(search_term, website):
     r = driver.page_source
     soup = BeautifulSoup(r, "lxml")
     driver.quit()
-    name = find("h4", {"class": "m-0 font-weight-bolder"}).text
-
-    if name is None:
-        print("can't find " + search_term + "... Exiting program")
-        exit(1)
-
-    confirm = input("Is " + name + " what you are looking for? (y/n)")
-    if confirm == "n":
-        print("exiting program...")
-        exit(1)
-
     return soup
 
 

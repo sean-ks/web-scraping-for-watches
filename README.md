@@ -4,10 +4,10 @@ scrapes data from ebay and watchcharts and puts the data into a csv file with ad
 packages used:
 Package              Version
 -------------------- -----------
-attrs                23.2.0
-beautifulsoup4       4.13.0b2
-cachetools           5.4.0
-certifi              2024.6.2
+attrs                23.2.0  
+beautifulsoup4       4.13.0b2  
+cachetools           5.4.0  
+certifi              2024.6.2  
 charset-normalizer   3.3.2
 contourpy            1.2.1
 cycler               0.12.1
